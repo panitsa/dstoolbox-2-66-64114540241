@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 panitsa/dstoolbox-2-66-64114540241
   private project for ds toolbox class.
 
@@ -36,6 +37,57 @@ panitsa/dstoolbox-2-66-64114540241
  venv\Scripts\activate pip install django pre-commit pip install cookiecutter cookiecutter gh:cookiecutter/cookiecutter-django
 
  Do you want to re-use the existing version? [y/n] (y):
+=======
+# panitsa/dstoolbox-2-66-64114540241
+private project for ds toolbox class.
+
+## 07/11/2566
+
+* ติดตั้ง scoop.sh
+
+* ติดตั้ง github-cli 
+
+        scoop install git
+        #scoop bucket add main
+        scoop install gh
+    
+* สร้างสภาพแวดล้อมใหม่
+
+        python -m venv venv
+        venv\Scripts\activate
+
+* ติดตั้ง package 
+
+        pip install django
+
+
+## 14/11/2566
+
+* สร้าง github repository ของตัวเอง 
+
+        Username/dstoolbox-2-66-66xxxxxxxx
+
+* เพิ่ม wichit2s เป็น collaborator 
+
+* การเข้าใช้งาน github
+
+        gh auth login
+        gh repo clone Username/dstoolbox-2-66-66xxxxxxxx
+
+* เริ่มเขียน markdown 
+
+* [การเขียนเอกสารบน Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+* github.com/cookiecutter/cookiecutter-django 
+
+    venv\Scripts\activate
+    pip install django pre-commit
+    pip install cookiecutter
+    cookiecutter gh:cookiecutter/cookiecutter-django
+
+```
+Do you want to re-use the existing version? [y/n] (y):
+>>>>>>> origin/main
   [1/27] project_name (My Awesome Project): dssiprj
   [2/27] project_slug (dssiprj):
   [3/27] description (Behold My Awesome Project!): DSSI Senior Project
@@ -109,4 +161,9 @@ panitsa/dstoolbox-2-66-64114540241
     Choose from [1/2/3/4/5] (1):
   [26/27] keep_local_envs_in_vcs (y):
   [27/27] debug (n): y
+<<<<<<< HEAD
  [SUCCESS]: Project initialized, keep up the good work!
+=======
+ [SUCCESS]: Project initialized, keep up the good work!
+```
+>>>>>>> origin/main
